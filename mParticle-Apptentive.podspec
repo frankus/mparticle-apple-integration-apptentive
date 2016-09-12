@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "mParticle-Apptentive"
-    s.version          = "6.7.0"
+    s.version          = "6.8.0"
     s.summary          = "Apptentive integration for mParticle"
 
     s.description      = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'DefaultVersion' do |ss|
-        ss.ios.dependency 'apptentive-ios', '~> 3.2'
+        ss.ios.dependency 'apptentive-ios', '~> 3.2.1'
         s.subspec_common(ss)
     end
 
